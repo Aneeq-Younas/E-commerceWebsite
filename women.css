@@ -1,0 +1,16 @@
+.navbar-logo{
+    height: 50px;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+a img:hover{
+    box-shadow: -2px -5px 10px grey;
+}

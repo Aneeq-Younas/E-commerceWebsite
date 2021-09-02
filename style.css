@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar {
+  display: flex;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+.logo {
+  display: flex;
+  height: 60px;
+  margin: 9px;
+  width: 30%;
+}
+.logo img {
+  display: flex;
+  /* border: 2px solid red; */
+  border-radius: 30px;
+}
+.ul {
+  display: flex;
+}
+.ul ul {
+  display: flex;
+}
+.ul ul li {
+  list-style: none;
+  /* color: white; */
+  padding: 4px 10px;
+  margin-top: 9px;
+  font-size: 26px;
+}
+.ul ul a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.ul ul a:hover {
+  margin-top: 6px;
+  
+  color: rgb(248, 91, 91);
+ 
+  text-decoration: underline;
+  /* border-radius: 13px; */
+  padding: 10px;
+  /* transition: 0.5s; */
+}
+.burger{
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top:15px;
+}
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+
+.sec-2 img{
+  /* margin: auto; */
+  margin-top: 13px;
+  margin-left: 20px;
+  height: 580px;
+  /* background-color: cyan; */
+}
+.third img{
+  height: 400px;
+}
+.hrp{
+  padding: 5px;
+}
+/* 
+@media only screen and (max-width: 732px) {
+  .ul ul li {
+    display: none;
+   
+
+  }
+  .burger{
+    display: block;
+    
+  }
+  .ul ul li{
+
+  }
+} */
+@media only screen and(min-width:400px)and
+(max-width:700px){
+  .dis-img{
+    width: auto;
+  }
+}
